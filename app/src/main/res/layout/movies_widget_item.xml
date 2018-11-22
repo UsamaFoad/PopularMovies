@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_linear_layout"
+    android:layout_width="@dimen/widget_layout_width"
+    android:layout_height="@dimen/widget_layout_height"
+    android:background="@drawable/gradient">
+    <!--TextView-->
+    <ImageView
+        android:id="@+id/poster_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/widget_poster_layout_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/template_movie"
+        android:contentDescription="@string/content_desc_poster" />
+
+    <TextView
+        android:id="@+id/movies_widget_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/browser_actions_bg_grey"
+        android:gravity="center"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/item"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/widget_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/movies_widget_item_rating_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="46dp"
+        android:layout_toEndOf="@id/poster_imageView"
+        android:text="@string/rating"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/widget_text_size"
+        android:textStyle="bold"
+        tools:text="Rating" />
+
+    <TextView
+        android:id="@+id/movies_widget_item_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/movies_widget_item_rating_header"
+        android:layout_marginTop="47dp"
+        android:layout_toEndOf="@id/poster_imageView"
+        android:text="@{@string/user_rating_text(movie.userRating)}"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/widget_text_size"
+        android:textStyle="bold"
+        tools:text="6.6 / 10" />
+
+</RelativeLayout>

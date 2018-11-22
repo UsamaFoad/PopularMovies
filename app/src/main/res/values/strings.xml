@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!--Shared Preferences key-->
+    <string name="pref_sort_key" translatable="false">sort_order</string>
+    <string name="pref_changed_movie" translatable="false">changed_movie</string>
+
+    <!--Menu item name for sorting spinner-->
+    <string name="action_sort">Sorting</string>
+    <string name="action_share">Share</string>
+
+    <!--For Sort Labels-->
+    <string name="pref_sort_label_popular">Popular</string>
+    <string name="pref_sort_label_upcoming">Upcoming</string>
+    <string name="pref_sort_label_favorite">Favorites</string>
+    <string name="pref_sort_label_highest_rated">Top Rated</string>
+    <string name="pref_sort_label_now_playing">Now Playing</string>
+
+    <string name="cd_video">Video</string>
+    <string name="cd_favorite">Favorite</string>
+    <string name="cd_more">Expand More</string>
+    <string name="cd_status">Status</string>
+
+    <string name="language">en-US</string>
+
+    <!--For Detail Activity-->
+    <string name="release_date">Release Date</string>
+    <string name="user_rating">User Rating</string>
+    <string name="user_rating_text" translatable="false">%1$s / 10</string>
+    <string name="plot_synopsis">Overview</string>
+    <string name="videos">Videos</string>
+    <string name="reviews">Reviews</string>
+    <string name="review">Review</string>
+
+    <string name="no_internet">No internet connection, swipe to refresh</string>
+    <string name="no_favorite">To add a movie to favorites, tap star</string>
+    <string name="not_this_star">Not this star. Tap star on poster or detail page.</string>
+    <string name="no_app">There is not any sharing app installed on deviceThere is not any sharing app installed on your device</string>
+
+    <string name="view_more">READ MORE</string>
+
+    <string name="add_favorite">Added to favorites</string>
+    <string name="remove_favorite">Removed from favorites</string>
+
+    <string name="connection_error">Connection Error</string>
+
+    <string name="movie_transition" translatable="false">movie_transition</string>
+    <string name="review_transition" translatable="false">review_transition</string>
+    <string name="no_api_key">No API Key fond! Please contact the developer for help!</string>
+
+    <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+    <string name="AdMob_ID" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="content_desc_poster">movie poster</string>
+
+    <!--For Widget-->
+    <string name="widget_default_selection">Popular</string>
+    <string name="widget_config_button_popular">Popular</string>
+    <string name="widget_config_button_upcoming">Upcoming</string>
+    <string name="widget_config_button_top_rated">Top Rated</string>
+    <string name="widget_config_button_now_playing">Now Playing</string>
+    <string name="widget_config_button_confirm">Confirm</string>
+    <string name="hint_change_option">Change Option (Popular)</string>
+    <string name="top_ten">Top Ten</string>
+    <string name="press_me">Press me</string>
+    <string name="empty">Empty</string>
+    <string name="item">Item</string>
+    <!--Rating [CHAR LIMIT=20]-->
+    <string name="rating">Rating</string>
+
+    <string name="image_path_w780" translatable="false">http://image.tmdb.org/t/p/w780</string>
+    <string name="image_path_w342" translatable="false">http://image.tmdb.org/t/p/w342</string>
+    <string name="image_path_w92" translatable="false">http://image.tmdb.org/t/p/w92</string>
+    <string name="the_movie_uri" translatable="false">https://www.themoviedb.org/movie/</string>
+    <string name="type_text_plain" translatable="false">text/plain</string>
+    <string name="simple_data_format" translatable="false">yyyy-MM-dd</string>
+    <string name="type_for_firebase" translatable="false">movie</string>
+    <string name="current_selection_popular">Popular</string>
+    <string name="current_selection_favourites">Favourites</string>
+    <string name="current_selection_upcoming">Upcoming</string>
+    <string name="current_selection_top_rated">Top Rated</string>
+    <string name="current_selection_now_playing">Now Playing</string>
+    <string name="chr_sequence_set_text" translatable="false">setText</string>
+    <string name="title_string_format" translatable="false">%s - %s</string>
+
+</resources>
