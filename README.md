@@ -25,3 +25,9 @@ Copyright for this app is [The MIT License](https://opensource.org/licenses/MIT)
 
 
 You need to replace the API key in the **gradle.properties** file.
+
+Screenshots
+--------
+![screenshot_one](https://raw.githubusercontent.com/usamafoad/popularmovies/master/screenshots/PopularMovies_1.png)   ![screenshot_two](https://raw.githubusercontent.com/usamafoad/popularmovies/master/screenshots/PopularMovies_2.png)
+
+![screenshot_three](https://raw.githubusercontent.com/usamafoad/popularmovies/master/screenshots/PopularMovies_3.png)   ![screenshot_four](https://raw.githubusercontent.com/usamafoad/popularmovies/master/screenshots/PopularMovies_4.png)
