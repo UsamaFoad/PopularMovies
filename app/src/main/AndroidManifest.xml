@@ -62,6 +62,9 @@
             android:name=".widget.MoviesWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
         <service android:name=".widget.WidgetUpdateService" />
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
     </application>
 
 </manifest>
